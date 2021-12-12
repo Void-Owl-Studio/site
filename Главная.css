@@ -4,12 +4,16 @@
 
 .u-section-1 .u-text-1 {
   font-weight: 700;
-  margin: 25px auto 0;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 50px auto 0;
 }
 
 .u-section-1 .u-list-1 {
-  margin-top: 150px;
-  margin-bottom: 0;
+  margin-top: 99px;
+  margin-bottom: 60px;
 }
 
 .u-section-1 .u-repeater-1 {
@@ -20,6 +24,7 @@
 
 .u-section-1 .u-list-item-1 {
   background-image: none;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -31,14 +36,14 @@
   width: 76px;
   background-image: none;
   text-shadow: 7px 0 0 rgba(0,0,0,0);
-  margin: -25px auto 0;
+  margin: 25px auto 0;
 }
 
-.u-section-1 .u-text-2 {
+.u-section-1 .u-text-3 {
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 35px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -47,12 +52,13 @@
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: normal;
-  margin: 39px auto 0;
+  margin: 25px auto 0;
   padding: 0;
 }
 
 .u-section-1 .u-list-item-2 {
   background-image: none;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -64,14 +70,14 @@
   width: 76px;
   background-image: none;
   text-shadow: 7px 0 0 rgba(0,0,0,0);
-  margin: -25px auto 0;
+  margin: 25px auto 0;
 }
 
-.u-section-1 .u-text-3 {
+.u-section-1 .u-text-4 {
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 35px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-1 .u-btn-2 {
@@ -80,12 +86,13 @@
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: normal;
-  margin: 39px auto 0;
+  margin: 25px auto 0;
   padding: 0;
 }
 
 .u-section-1 .u-list-item-3 {
   background-image: none;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -97,14 +104,14 @@
   width: 76px;
   background-image: none;
   text-shadow: 7px 0 0 rgba(0,0,0,0);
-  margin: -25px auto 0;
+  margin: 25px auto 0;
 }
 
-.u-section-1 .u-text-4 {
+.u-section-1 .u-text-5 {
   letter-spacing: 1px;
   font-weight: 700;
   font-size: 1.5rem;
-  margin: 35px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-1 .u-btn-3 {
@@ -113,12 +120,8 @@
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: normal;
-  margin: 39px auto 0;
+  margin: 25px auto 0;
   padding: 0;
-}
-
-.u-section-1 .u-text-5 {
-  margin: 110px auto 50px;
 }
 
 @media (max-width: 1199px) {
@@ -132,7 +135,7 @@
     padding-right: 20px;
   }
 
-  .u-section-1 .u-text-2 {
+  .u-section-1 .u-text-3 {
     font-size: 1.25rem;
   }
 
@@ -141,7 +144,7 @@
     padding-right: 20px;
   }
 
-  .u-section-1 .u-text-3 {
+  .u-section-1 .u-text-4 {
     font-size: 1.25rem;
   }
 
@@ -150,12 +153,8 @@
     padding-right: 20px;
   }
 
-  .u-section-1 .u-text-4 {
-    font-size: 1.25rem;
-  }
-
   .u-section-1 .u-text-5 {
-    margin-top: 162px;
+    font-size: 1.25rem;
   }
 }
 
@@ -164,16 +163,11 @@
     grid-template-columns: repeat(2, calc(50% - 31.5px));
     min-height: 614px;
   }
-
-  .u-section-1 .u-text-5 {
-    margin-top: -180px;
-    margin-bottom: 60px;
-  }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-list-1 {
-    margin-top: 135px;
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -185,7 +179,7 @@
     padding-right: 30px;
   }
 
-  .u-section-1 .u-text-2 {
+  .u-section-1 .u-text-3 {
     font-size: 1.875rem;
   }
 
@@ -194,7 +188,7 @@
     padding-right: 30px;
   }
 
-  .u-section-1 .u-text-3 {
+  .u-section-1 .u-text-4 {
     font-size: 1.875rem;
   }
 
@@ -203,24 +197,12 @@
     padding-right: 30px;
   }
 
-  .u-section-1 .u-text-4 {
-    font-size: 1.875rem;
-  }
-
   .u-section-1 .u-text-5 {
-    margin-top: -569px;
+    font-size: 1.875rem;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-list-1 {
-    margin-top: 160px;
-  }
-
-  .u-section-1 .u-text-2 {
-    font-size: 1.5rem;
-  }
-
   .u-section-1 .u-text-3 {
     font-size: 1.5rem;
   }
@@ -230,7 +212,7 @@
   }
 
   .u-section-1 .u-text-5 {
-    margin-top: -562px;
+    font-size: 1.5rem;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 654px;
@@ -261,6 +243,7 @@
   height: 290px;
   background-image: url("images/23745543.png");
   background-position: 50% 50%;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: 0 auto;
 }
 
@@ -281,6 +264,7 @@
   height: 290px;
   background-image: url("images/v-r-v-r-princess-icon.jpg");
   background-position: 50% 50%;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: 0 auto;
 }
 
@@ -301,6 +285,7 @@
   height: 290px;
   background-image: url("images/image-2021-10-04_08_54_44.jpg");
   background-position: 50% 50%;
+  box-shadow: 0 0 8px 0 rgba(128,128,128,1);
   margin: 0 auto;
 }
 
